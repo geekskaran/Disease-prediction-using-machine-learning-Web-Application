@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Login-Disease presection</title>
+	<link rel="stylesheet" type="text/css" href="/login/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<img class="wave" src="/login/img/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="/login/img/bg.svg">
+		</div>
+		<div class="login-content">
+			<form  method="get" >
+				<img src="/login/img/avatar.svg">
+				<h2 class="title">Disease Prescription</h2>
+				<div class="input-div one">
+					<div class="i">
+						<i class="fas fa-user"></i>
+					</div>
+					<div class="div">
+						<h5>Username</h5>
+						<input type="text" class="input"  required>
+					</div>
+				</div>
+				<div class="input-div pass">
+					<div class="i">
+						<i class="fas fa-lock"></i>
+					</div>
+					<div class="div">
+						<h5>Password</h5>
+						<input type="password" class="input" required>
+					</div>
+				</div>
+				<a href="/forgot password/Step1/index.html" target="blank">Forgot Password?</a>
+				<a href="/Lading Page/Index.html" target="blank" style="float: left; font-size: larger; color: crimson;">Skip LogIn</a>
+				<a href="#" onclick="document.getElementById('id01').style.display='block'" style="color: #1877F2">Click
+					to Register </a>
+				<!-- <input type="submit" class="btn" value="Login" > -->
+				<button onclick="myFunction()">LogIn</button>
+
+			</form>
+		</div>
+	</div>
+	<!-- modal  -->
+	<div id="id01" class="modals">
+		<form class="signup"  action="/Lading Page/Index.html" 
+	
+		 autocomplete="off">
+			<span onclick="document.getElementById('id01').style.display='none'" style="color: aquamarine;"
+				class="close"></span>
+
+			<h1>Create account</h1>
+
+			<h2>Already have an account?  <a href="/index.html"> <span >Login in</span></a></h2>
+
+			<div class="signup__field">
+				<input class="signup__input" type="text" name="username" id="username" required />
+				<label class="signup__label" for="username">Username</label>
+			</div>
+
+			<div class="signup__field">
+				<input class="signup__input" type="text" name="email" id="email" required />
+				<label class="signup__label" for="email">Email</label>
+			</div>
+
+			<div class="signup__field">
+				<input class="signup__input" type="number" name="number" id="number" maxlength="10"  required />
+				<label class="signup__label" for="number">Contact No.</label>
+			</div>
+
+			<div class="signup__field">
+				<input class="signup__input" type="password" name="password" id="password" required />
+				<label class="signup__label" for="password">Password</label>
+			</div>
+			<a href="/Lading Page/Index.html" target="blank" style="float: left; font-size: larger; color: crimson;">Skip SignUp</a>
+
+
+			<button onclick="myFunction()">Sign up</button>
+		</form>
+	</div>
+
+	<!-- model end -->
+
+
+
+
+
+
+
+	<script type="text/javascript" src="/login/js/main.js"></script>
+</body>
+
+</html>w

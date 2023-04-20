@@ -1,0 +1,214 @@
+:root {--accent: #FFA500;
+    --color1: linear-gradient(to bottom right, #FFA500, #FF5F1F);
+    --transparent: rgb(255, 255, 255, 0.3);}
+    
+    body {
+      font-family: 'Source Sans Pro', sans-serif;
+      background-color: #EEEEEE;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .form {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: 400px;
+      background-color: var(--transparent);
+      color: var(--accent);
+      position: absolute;
+      padding: 10px 30px;
+      margin-top: 50px;
+      backdrop-filter: blur(10px);
+      border: 2px solid var(--transparent);
+      border-radius: 16px;
+      text-align: center;
+    }
+    
+    input {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 14px;
+      margin: 10px 0;
+      height: 40px;
+      width: 296px;
+      border: none;
+      border-bottom: 1px solid var(--accent);
+      background-color: transparent;
+      outline: none;
+    }
+    
+    a {
+      background: var(--color1);
+      color: #EEEEEE;
+      text-decoration: none;
+      padding: 12px 0;
+      margin: 20px 0 10px 0;
+      text-align: center;
+      border-radius: 30px;
+      transition: 0.4s;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px;
+    }
+    
+    a:hover {
+      transform: translatey(2px);
+      box-shadow: none;
+    }
+    
+    .socials {
+      padding: 10px 40px;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    img {
+      max-width: 40px;
+      border-radius: 50%;
+      transition: 0.4s;
+    }
+    
+    img:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+    
+    .circle {
+      position: absolute; 
+      top: 50%;
+      left: 50%;
+      background: var(--color1);
+      border-radius: 50%;
+      z-index: -1;
+      width: 100px;
+      height: 100px; 
+      transform: translate(-250px, -200px);
+    }
+    
+    .circle-1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background: var(--color1);
+      width: 250px;
+      height: 250px; 
+      border-radius: 50%;
+      transform: translate(100px, 50px);
+      z-index: -1;
+    }
+    
+    .circle-2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background: var(--color1);
+      width: 150px;
+      height: 150px; 
+      border-radius: 50%;
+      transform: translate(-250px, 50px);
+      z-index: -1;
+    }
+
+
+
+    /* asjbherjverfhjcdscgyvefuhjwhgdwuigdwcdhuasasjkdbasghukdsvfkdshjvdjdvasjdslvkew */
+
+    @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+body {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	font-family: Roboto, sans-serif;
+	font-size: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	transition-duration: 0.2s;
+	align-items: center;
+	padding: 1rem 1.5rem;
+}
+
+img {
+	transition-duration: 0.2s;
+}
+
+a:hover img {
+	animation: left-edge 0.5s linear 1;
+	filter: invert(72%) sepia(20%) saturate(747%) hue-rotate(174deg)
+		brightness(96%) contrast(97%);
+}
+
+img:hover .menu {
+	box-shadow: 0px 10px 5px rgb(100, 187, 241, 0.1);
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	width: auto;
+	height: 60px;
+	padding: 0 15px;
+	border-radius: 15px;
+	background: rgb(255, 255, 255);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* e2okrjigyuewjiodioewfrfjirf2id2ggdue2oifhguewicklwehjcuewioucgucviephcvheijocevhjejip */
+
+html,
+body {
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+h1 {
+	margin: 20px 0;
+	color: #fff;
+}
+
+.center {
+	text-align: center;
+}
+
+.nav-wrapper {
+	display: flex;
+	position: relative;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-between;
+	margin: auto;
+	width: 90%;
+	height: 80px;
+	border-radius: 0 0 15px 15px;
+	padding: 0 25px;
+	z-index: 2;
+	background: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.logo-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	height: 60px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz Answers</title>
+  <style>
+    /* add your CSS styles here */
+  </style>
+</head>
+<body>
+  <h1>Quiz Answers</h1>
+  <form>
+    <h2>Question 1:</h2>
+    <p>What is the capital of France?</p>
+    <p>Your answer: <strong id="q1-answer"></strong></p>
+    <br>
+    <h2>Question 2:</h2>
+    <p>What is the largest planet in our solar system?</p>
+    <p>Your answer: <strong id="q2-answer"></strong></p>
+    <!-- repeat for other questions -->
+  </form>
+
+  <script>
+    // populate answers using the answers object
+    document.getElementById('q1-answer').textContent = answers['q1'];
+    // repeat for other questions
+  </script>
+</body>
+</html>
